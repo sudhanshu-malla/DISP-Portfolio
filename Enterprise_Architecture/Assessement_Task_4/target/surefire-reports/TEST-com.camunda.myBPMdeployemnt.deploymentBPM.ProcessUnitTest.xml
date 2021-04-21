@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.camunda.myBPMdeployemnt.deploymentBPM.ProcessUnitTest" time="0.703" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Sudhanshu/eclipse-workspace/deploymentBPM"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Sudhanshu/eclipse-workspace/deploymentBPM"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/mc/t6xnr9mx5vd5ktqk0bkd8d640000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Sudhanshu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf12505864672481095895.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Sudhanshu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Sudhanshu"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sudhanshu"/>
+    <property name="java.class.path" value="/Users/Sudhanshu/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/Users/Sudhanshu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Sudhanshu/eclipse-workspace/deploymentBPM/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.camunda.myBPMdeployemnt.deploymentBPM.ProcessUnitTest" name="testHappyPath" time="0.703">
+    <failure message="Expecting ProcessInstance {id=&apos;4&apos;, processDefinitionId=&apos;deploymentBPM:1:3&apos;, businessKey=&apos;null&apos;} to be ended, but it is not!. (Please make sure you have set the history service of the engine to at least &apos;activity&apos; or a higher level before making use of this assertion!)" type="java.lang.AssertionError">java.lang.AssertionError: Expecting ProcessInstance {id=&apos;4&apos;, processDefinitionId=&apos;deploymentBPM:1:3&apos;, businessKey=&apos;null&apos;} to be ended, but it is not!. (Please make sure you have set the history service of the engine to at least &apos;activity&apos; or a higher level before making use of this assertion!)
+	at org.camunda.bpm.engine.test.assertions.bpmn.ProcessInstanceAssert.isEnded(ProcessInstanceAssert.java:407)
+	at com.camunda.myBPMdeployemnt.deploymentBPM.ProcessUnitTest.testHappyPath(ProcessUnitTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+	at org.camunda.bpm.engine.test.ProcessEngineRule$1.evaluate(ProcessEngineRule.java:176)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+	at org.camunda.bpm.engine.test.ProcessEngineRule$1.evaluate(ProcessEngineRule.java:176)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>14:49:36.598 [main] DEBUG org.camunda.bpm.engine.test - ==== BUILDING PROCESS ENGINE ========================================================================
+14:49:36.902 [main] INFO  org.camunda.bpm.engine.cfg - ENGINE-12003 Plugin &apos;SpinProcessEnginePlugin&apos; activated on process engine &apos;default&apos;
+14:49:36.906 [main] INFO  org.camunda.spin - SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+14:49:37.140 [main] INFO  org.camunda.spin - SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+14:49:37.157 [main] INFO  org.camunda.spin - SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+14:49:37.157 [main] INFO  org.camunda.spin - SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+14:49:37.225 [main] INFO  org.camunda.bpm.dmn.feel.scala - FEEL/SCALA-01001 Spin value mapper detected
+14:49:37.388 [main] INFO  org.camunda.feel.FeelEngine - Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@5629510, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@4df5bcb4)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@363042d7, clock: SystemClock, configuration: Configuration(false)]
+14:49:39.846 [main] INFO  org.camunda.bpm.connect - CNCT-01004 Discovered provider for connector id &apos;http-connector&apos; and class &apos;org.camunda.connect.httpclient.impl.HttpConnectorImpl&apos;: &apos;org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl&apos;
+14:49:39.847 [main] INFO  org.camunda.bpm.connect - CNCT-01004 Discovered provider for connector id &apos;soap-http-connector&apos; and class &apos;org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl&apos;: &apos;org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl&apos;
+14:49:39.972 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;engine&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.engine.sql&apos;
+14:49:39.999 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;history&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.history.sql&apos;
+14:49:40.006 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;identity&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.identity.sql&apos;
+14:49:40.015 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;case.engine&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.case.engine.sql&apos;
+14:49:40.018 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;case.history&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.case.history.sql&apos;
+14:49:40.021 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;decision.engine&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.decision.engine.sql&apos;
+14:49:40.026 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03016 Performing database operation &apos;create&apos; on component &apos;decision.history&apos; with resource &apos;org/camunda/bpm/engine/db/create/activiti.h2.create.decision.history.sql&apos;
+14:49:40.044 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03067 No history level property found in database
+14:49:40.044 [main] INFO  org.camunda.bpm.engine.persistence - ENGINE-03065 Creating historyLevel property in database for level: HistoryLevelFull(name=full, id=3)
+14:49:40.085 [main] INFO  org.camunda.bpm.engine - ENGINE-00001 Process Engine default created.
+14:49:40.086 [main] DEBUG org.camunda.bpm.engine.test - ==== PROCESS ENGINE CREATED =========================================================================
+14:49:40.089 [main] DEBUG org.camunda.bpm.engine.test - annotation @Deployment creates deployment for ProcessUnitTest.testHappyPath
+14:49:40.682 [main] DEBUG org.camunda.bpm.engine.test - annotation @Deployment deletes deployment for ProcessUnitTest.testHappyPath
+</system-out>
+    <system-err>Apr 21, 2021 2:49:40 PM org.camunda.bpm.extension.process_test_coverage.junit.rules.TestCoverageProcessEngineRule failed
+INFO: testHappyPath(com.camunda.myBPMdeployemnt.deploymentBPM.ProcessUnitTest) failed.
+Apr 21, 2021 2:49:40 PM org.camunda.bpm.extension.process_test_coverage.junit.rules.TestCoverageProcessEngineRule handleTestMethodCoverage
+INFO: testHappyPath test method coverage is 0.15
+</system-err>
+  </testcase>
+</testsuite>

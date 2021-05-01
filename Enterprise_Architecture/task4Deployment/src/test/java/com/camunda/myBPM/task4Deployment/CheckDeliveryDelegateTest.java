@@ -11,7 +11,7 @@ import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.junit.Test;
 
 public class CheckDeliveryDelegateTest {
-
+	//Test method 
 	@Test
 	public void verifyThatTheDelegateSetsVariable() {
 

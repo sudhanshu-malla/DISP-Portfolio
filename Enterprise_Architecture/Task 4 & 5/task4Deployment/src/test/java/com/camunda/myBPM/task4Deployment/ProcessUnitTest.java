@@ -4,7 +4,7 @@ package com.camunda.myBPM.task4Deployment;
 import static org.camunda.bpm.engine.test.assertions.bpmn.AbstractAssertions.init;
 import static org.camunda.bpm.engine.test.assertions.bpmn.AbstractAssertions.processEngine;
 import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.assertThat;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 import org.apache.ibatis.logging.LogFactory;
 import org.camunda.bpm.engine.impl.persistence.entity.TaskEntity;
@@ -40,7 +40,7 @@ public class ProcessUnitTest {
 
 
 	/**
-	 * Just tests if the process definition is deployable.
+	 * Just tests if the process definition can be deployed.
 	 */
 	@Test
 	@Deployment(resources = "process.bpmn")
@@ -49,6 +49,9 @@ public class ProcessUnitTest {
 		// deployment
 	}
 	
+	// Tests the checkout tasks are linked correctly. 
+	// This test should fail if wrong activity name is used or processInstance variable is changed. 
+	
 	@Test
 	@Deployment(resources = "process.bpmn")
 	public void testCurrentStatus() {
@@ -56,7 +59,7 @@ public class ProcessUnitTest {
 		// Obtain test run of BPMN
 		ProcessInstanceWithVariables processInstance = (ProcessInstanceWithVariables)processEngine().getRuntimeService().startProcessInstanceByKey(PROCESS_DEFINITION_KEY);
 
-		// Obtain the value of the weatherOK variable
+		// Obtain the value of the deliveryOK variable
 		boolean deliveryOK = (boolean)processInstance.getVariables().get("deliveryOK");
 		System.out.println("DeliveryOK: " + deliveryOK);
 			
@@ -76,6 +79,7 @@ public class ProcessUnitTest {
 
 		}
 	
+	// tests the completion of task. 
 	@Test
 	@Deployment(resources="process.bpmn")
 	public void testCompletionOftask() {
@@ -84,9 +88,9 @@ public class ProcessUnitTest {
 		//Obtain a reference to the current task
 		TaskAssert taskAssert = assertThat(processInstance).task();
 		TaskEntity task = (TaskEntity) taskAssert.getActual();
-		task.delegate("mannual");
+		task.delegate("user");
 		task.resolve();
-		//assertThat(processInstance.isEnded());
+	
 		
 	}
 

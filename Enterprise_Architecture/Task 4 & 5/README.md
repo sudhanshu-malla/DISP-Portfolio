@@ -1,6 +1,6 @@
 # Portfoli Deliverable - Enterprise Architecture -
 
-This directory contains a JAVA file. The project was used to deploy the model to Camunda Workflow Engine and to test using JUnit test. 
+This directory contains a JAVA file. The project was used to deploy the model to Camunda Workflow Engine (task 4) and to test using JUnit test (task 5). 
 
-About JUnit Testing: 
-To test the deployed model, Junit tests were done. The tests were coped to be a behaviour test or interaction test. The unit test file had different methods and they were called to see if the test passed or failed. While the behaviour test did not validate the result, it was able to check if the input parameters were correct and the implementation was done properly.
+About JUnit Testing scope: 
+To test the deployed model, Junit tests were done. The tests were scoped to be a behaviour test or interaction test. The Junit test file had different methods and they were called to see if the test passed or failed. While the behaviour test did not validate the result, it was able to check if the input parameters were correct and the implementation was done properly. As the name suggests, upon passing the wrong parameter or linking the wrong task, the test fails. The activityID in BPM should match the corresponding variables in the JUnit test. In this projects, the three tests were to check the links, behaviour of the link and completion of a task. In one of the scenarios, the test was intentionally failed to check the validity of the link between the BPM and the implementation. More details and a detailed explanation of the test is available from section 5 of the Description of Enterprise and Information System document. 
